@@ -1,0 +1,213 @@
+[gd_scene load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://scenes/levels/level_0.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/bloody-tile-1.png" id="2_bloody"]
+[ext_resource type="Texture2D" path="res://assets/backgrounds/dirty-tiles-placeholder.png" id="3_dirty"]
+[ext_resource type="Texture2D" path="res://assets/reference/atmosphere-reference.png" id="4_eyes"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn" id="5_player"]
+[ext_resource type="PackedScene" path="res://scenes/enemies/drone/Drone.tscn" id="6_drone"]
+[ext_resource type="PackedScene" path="res://scenes/ui/hud/HUD.tscn" id="7_hud"]
+[ext_resource type="Script" path="res://scenes/interactables/interactable.gd" id="8_interactable"]
+
+[sub_resource type="Gradient" id="Gradient_light"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_light"]
+gradient = SubResource("Gradient_light")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 1)
+
+[node name="Level_0" type="Node2D"]
+script = ExtResource("1_script")
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0.22, 0.24, 0.3, 1)
+
+[node name="Floors" type="Node2D" parent="."]
+
+[node name="CellFloor" type="Sprite2D" parent="Floors"]
+texture_repeat = 2
+position = Vector2(256, 192)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_bloody")
+region_enabled = true
+region_rect = Rect2(0, 0, 2048, 1536)
+
+[node name="CorridorFloor" type="Sprite2D" parent="Floors"]
+texture_repeat = 2
+position = Vector2(1024, 224)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("3_dirty")
+region_enabled = true
+region_rect = Rect2(0, 0, 4096, 512)
+
+[node name="ShaftFloor" type="Sprite2D" parent="Floors"]
+texture_repeat = 2
+position = Vector2(1472, -96)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("3_dirty")
+region_enabled = true
+region_rect = Rect2(0, 0, 512, 2048)
+
+[node name="StairwellPatch" type="Polygon2D" parent="Floors"]
+color = Color(0.55, 0.57, 0.6, 0.5)
+polygon = PackedVector2Array(1408, -352, 1536, -352, 1536, -288, 1408, -288)
+
+[node name="Walls" type="StaticBody2D" parent="."]
+
+[node name="NorthLeftVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(-32, -32, 224, -32, 224, 0, -32, 0)
+
+[node name="NorthLeft" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(-32, -32, 224, -32, 224, 0, -32, 0)
+
+[node name="NorthRightVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(320, -32, 544, -32, 544, 0, 320, 0)
+
+[node name="NorthRight" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(320, -32, 544, -32, 544, 0, 320, 0)
+
+[node name="WestVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(-32, 0, 0, 0, 0, 384, -32, 384)
+
+[node name="West" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(-32, 0, 0, 0, 0, 384, -32, 384)
+
+[node name="SouthVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(-32, 384, 544, 384, 544, 416, -32, 416)
+
+[node name="South" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(-32, 384, 544, 384, 544, 416, -32, 416)
+
+[node name="EastUpperVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(512, 0, 544, 0, 544, 160, 512, 160)
+
+[node name="EastUpper" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(512, 0, 544, 0, 544, 160, 512, 160)
+
+[node name="EastLowerVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(512, 288, 544, 288, 544, 384, 512, 384)
+
+[node name="EastLower" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(512, 288, 544, 288, 544, 384, 512, 384)
+
+[node name="CorridorTopVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(544, 128, 1408, 128, 1408, 160, 544, 160)
+
+[node name="CorridorTop" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(544, 128, 1408, 128, 1408, 160, 544, 160)
+
+[node name="CorridorBottomVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(544, 288, 1568, 288, 1568, 320, 544, 320)
+
+[node name="CorridorBottom" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(544, 288, 1568, 288, 1568, 320, 544, 320)
+
+[node name="ShaftEastVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(1536, -352, 1568, -352, 1568, 288, 1536, 288)
+
+[node name="ShaftEast" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(1536, -352, 1568, -352, 1568, 288, 1536, 288)
+
+[node name="ShaftWestVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(1376, -352, 1408, -352, 1408, 128, 1376, 128)
+
+[node name="ShaftWest" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(1376, -352, 1408, -352, 1408, 128, 1376, 128)
+
+[node name="ShaftCapVisual" type="Polygon2D" parent="Walls"]
+color = Color(0.09, 0.1, 0.13, 1)
+polygon = PackedVector2Array(1376, -384, 1568, -384, 1568, -352, 1376, -352)
+
+[node name="ShaftCap" type="CollisionPolygon2D" parent="Walls"]
+polygon = PackedVector2Array(1376, -384, 1568, -384, 1568, -352, 1376, -352)
+
+[node name="LockedDoor" type="StaticBody2D" parent="."]
+
+[node name="Visual" type="Polygon2D" parent="LockedDoor"]
+color = Color(0.32, 0.1, 0.09, 1)
+polygon = PackedVector2Array(224, -32, 320, -32, 320, 0, 224, 0)
+
+[node name="Collision" type="CollisionPolygon2D" parent="LockedDoor"]
+polygon = PackedVector2Array(224, -32, 320, -32, 320, 0, 224, 0)
+
+[node name="Interactable" type="Area2D" parent="LockedDoor"]
+script = ExtResource("8_interactable")
+prompt_text = "Inspect door"
+
+[node name="Shape" type="CollisionPolygon2D" parent="LockedDoor/Interactable"]
+polygon = PackedVector2Array(208, -40, 336, -40, 336, 32, 208, 32)
+
+[node name="Player" parent="." instance=ExtResource("5_player")]
+position = Vector2(256, 192)
+
+[node name="Light" type="PointLight2D" parent="Player"]
+texture = SubResource("GradientTexture2D_light")
+texture_scale = 4.0
+energy = 1.1
+
+[node name="Drone" parent="." instance=ExtResource("6_drone")]
+position = Vector2(1472, -48)
+initial_direction = Vector2(0, 1)
+
+[node name="ExitZone" type="Area2D" parent="."]
+
+[node name="Collision" type="CollisionPolygon2D" parent="ExitZone"]
+polygon = PackedVector2Array(1408, -352, 1536, -352, 1536, -288, 1408, -288)
+
+[node name="HUD" parent="." instance=ExtResource("7_hud")]
+
+[node name="Cinematic" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="BlackRect" type="ColorRect" parent="Cinematic"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="EyesRect" type="TextureRect" parent="Cinematic"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_eyes")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ExitLabel" type="Label" parent="Cinematic"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -30.0
+offset_right = 400.0
+offset_bottom = 30.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 42
+text = "— TO BE CONTINUED —"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="body_entered" from="ExitZone" to="." method="_on_exit_zone_body_entered"]
+[connection signal="interaction_prompt_changed" from="Player" to="." method="_on_player_interaction_prompt_changed"]
+[connection signal="interacted" from="LockedDoor/Interactable" to="." method="_on_locked_door_interacted"]
