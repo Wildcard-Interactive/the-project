@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/tilesets/facility/Props/prop_main_pipe.png" id="1_tex"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_main_pipe"]
+size = Vector2(51, 182)
+
+[node name="PropMainPipe" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_tex")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_main_pipe")

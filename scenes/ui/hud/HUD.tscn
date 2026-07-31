@@ -1,6 +1,14 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=10 format=3]
 
 [ext_resource type="Script" path="res://scenes/ui/hud/hud.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/ui/kenney_input-prompts_1.5/Keyboard & Mouse/Default/keyboard_w.png" id="2_w"]
+[ext_resource type="Texture2D" path="res://assets/ui/kenney_input-prompts_1.5/Keyboard & Mouse/Default/keyboard_a.png" id="3_a"]
+[ext_resource type="Texture2D" path="res://assets/ui/kenney_input-prompts_1.5/Keyboard & Mouse/Default/keyboard_s.png" id="4_s"]
+[ext_resource type="Texture2D" path="res://assets/ui/kenney_input-prompts_1.5/Keyboard & Mouse/Default/keyboard_d.png" id="5_d"]
+[ext_resource type="Texture2D" path="res://assets/ui/kenney_input-prompts_1.5/Keyboard & Mouse/Default/keyboard_shift.png" id="6_shift"]
+[ext_resource type="Texture2D" path="res://assets/ui/kenney_input-prompts_1.5/Keyboard & Mouse/Default/keyboard_ctrl.png" id="7_ctrl"]
+[ext_resource type="Texture2D" path="res://assets/ui/kenney_input-prompts_1.5/Keyboard & Mouse/Default/keyboard_e.png" id="8_e"]
+[ext_resource type="Texture2D" path="res://assets/ui/kenney_input-prompts_1.5/Keyboard & Mouse/Default/keyboard_r.png" id="9_r"]
 
 [node name="HUD" type="CanvasLayer"]
 layer = 5
@@ -47,3 +55,148 @@ theme_override_font_sizes/font_size = 26
 text = ""
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="ControlsHint" type="HBoxContainer" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 28.0
+offset_top = -62.0
+offset_right = 900.0
+offset_bottom = -24.0
+grow_vertical = 0
+theme_override_constants/separation = 22
+
+[node name="MoveHint" type="HBoxContainer" parent="ControlsHint"]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="W" type="TextureRect" parent="ControlsHint/MoveHint"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("2_w")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="A" type="TextureRect" parent="ControlsHint/MoveHint"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("3_a")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="S" type="TextureRect" parent="ControlsHint/MoveHint"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("4_s")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="D" type="TextureRect" parent="ControlsHint/MoveHint"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("5_d")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="ControlsHint/MoveHint"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.72, 0.75, 0.79, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 18
+text = "  Move"
+
+[node name="SprintHint" type="HBoxContainer" parent="ControlsHint"]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="Shift" type="TextureRect" parent="ControlsHint/SprintHint"]
+custom_minimum_size = Vector2(46, 30)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("6_shift")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="ControlsHint/SprintHint"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.72, 0.75, 0.79, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 18
+text = "  Sprint"
+
+[node name="CrouchHint" type="HBoxContainer" parent="ControlsHint"]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="Ctrl" type="TextureRect" parent="ControlsHint/CrouchHint"]
+custom_minimum_size = Vector2(46, 30)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("7_ctrl")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="ControlsHint/CrouchHint"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.72, 0.75, 0.79, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 18
+text = "  Crouch"
+
+[node name="InteractHint" type="HBoxContainer" parent="ControlsHint"]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="E" type="TextureRect" parent="ControlsHint/InteractHint"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("8_e")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="ControlsHint/InteractHint"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.72, 0.75, 0.79, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 18
+text = "  Interact"
+
+[node name="RestartHint" type="HBoxContainer" parent="ControlsHint"]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="R" type="TextureRect" parent="ControlsHint/RestartHint"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("9_r")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="ControlsHint/RestartHint"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.72, 0.75, 0.79, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.8)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_font_sizes/font_size = 18
+text = "  Restart"

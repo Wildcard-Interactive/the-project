@@ -11,6 +11,11 @@ const EYES_HOLD_SECONDS := 3.0
 const FADE_SECONDS := 2.5
 const STILL_SECONDS := 1.5
 
+## Ambience bed for the basement tier. Which track fits is a taste call --
+## the "Area Tunnels" beds read as a collapsed sub-level, but swap this in the
+## inspector to audition anything else in assets/audio/ambience/.
+@export_file("*.ogg") var ambience_track: String = "res://assets/audio/ambience/AMBUndr_Atmo-Area Tunnels 01_TGRJ_GSHR1.ogg"
+
 @onready var player: CharacterBody2D = $Player
 @onready var hud: CanvasLayer = $HUD
 @onready var cinematic: CanvasLayer = $Cinematic
@@ -21,7 +26,15 @@ const STILL_SECONDS := 1.5
 func _ready() -> void:
 	GameState.reset_run()
 	exit_label.hide()
+	AudioManager.play_ambience(ambience_track)
 	_run_intro()
+
+## R restarts the level, per the Controls section of the GDD.
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("restart"):
+		# Cut the bed instantly -- _ready() fades a fresh one back in.
+		AudioManager.stop_ambience(0.0)
+		get_tree().reload_current_scene()
 
 func _run_intro() -> void:
 	# No control during the opening beat.
@@ -44,6 +57,7 @@ func _run_intro() -> void:
 	# Brief forced stillness on the floor of the cell, then control unlocks.
 	await get_tree().create_timer(STILL_SECONDS).timeout
 	player.set_physics_process(true)
+	hud.set_controls_hint_visible(true)
 
 func _on_player_interaction_prompt_changed(text: String) -> void:
 	hud.set_prompt(text)

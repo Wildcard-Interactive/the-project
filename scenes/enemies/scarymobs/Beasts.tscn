@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/characters/enemies/scarymobs/beasts.png" id="1_tex"]
+[ext_resource type="Script" path="res://scenes/enemies/scarymobs/scarymob.gd" id="2_script"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_beasts"]
+size = Vector2(28, 24)
+
+[node name="Beasts" type="CharacterBody2D"]
+script = ExtResource("2_script")
+display_name = "Beast"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_tex")
+region_enabled = true
+region_rect = Rect2(0, 0, 48, 64)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 20)
+shape = SubResource("RectangleShape2D_beasts")

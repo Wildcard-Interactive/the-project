@@ -6,12 +6,20 @@ extends CanvasLayer
 
 @onready var prompt_label: Label = $PromptLabel
 @onready var message_label: Label = $MessageLabel
+@onready var controls_hint: HBoxContainer = $ControlsHint
 
 var _message_tween: Tween
 
 func _ready() -> void:
 	prompt_label.hide()
 	message_label.hide()
+	# Kept out of the way during the opening cinematic; the level shows it once
+	# the player actually has control.
+	controls_hint.hide()
+
+## Show/hide the static key-icon row along the bottom edge.
+func set_controls_hint_visible(visible_: bool) -> void:
+	controls_hint.visible = visible_
 
 ## Pass the text to show, or "" to hide the prompt.
 func set_prompt(text: String) -> void:
