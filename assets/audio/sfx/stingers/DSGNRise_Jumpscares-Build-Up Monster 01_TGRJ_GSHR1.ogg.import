@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bvr0bs81rv1y1"
+path="res://.godot/imported/DSGNRise_Jumpscares-Build-Up Monster 01_TGRJ_GSHR1.ogg-c0d9adf477d8f8e396263b5e6daa07a0.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/stingers/DSGNRise_Jumpscares-Build-Up Monster 01_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/DSGNRise_Jumpscares-Build-Up Monster 01_TGRJ_GSHR1.ogg-c0d9adf477d8f8e396263b5e6daa07a0.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

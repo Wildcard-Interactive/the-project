@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cpcari20c2xw6"
+path="res://.godot/imported/DOORCreak_Atmo-Creaks Atmo 06_TGRJ_GSHR1.ogg-3a66236c145fa2700741df3d9cf43005.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/ambience/DOORCreak_Atmo-Creaks Atmo 06_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/DOORCreak_Atmo-Creaks Atmo 06_TGRJ_GSHR1.ogg-3a66236c145fa2700741df3d9cf43005.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

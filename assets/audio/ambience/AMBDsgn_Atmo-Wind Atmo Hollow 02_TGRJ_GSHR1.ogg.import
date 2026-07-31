@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://da7eu7xdxv7n"
+path="res://.godot/imported/AMBDsgn_Atmo-Wind Atmo Hollow 02_TGRJ_GSHR1.ogg-db47661042aac16a468da0a976b031cc.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/ambience/AMBDsgn_Atmo-Wind Atmo Hollow 02_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/AMBDsgn_Atmo-Wind Atmo Hollow 02_TGRJ_GSHR1.ogg-db47661042aac16a468da0a976b031cc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

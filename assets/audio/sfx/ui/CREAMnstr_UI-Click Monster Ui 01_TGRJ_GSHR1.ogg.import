@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dh1xl2r21nt1n"
+path="res://.godot/imported/CREAMnstr_UI-Click Monster Ui 01_TGRJ_GSHR1.ogg-e4fad7cd8f9ecf2cd7d0a312d4effd5d.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/CREAMnstr_UI-Click Monster Ui 01_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/CREAMnstr_UI-Click Monster Ui 01_TGRJ_GSHR1.ogg-e4fad7cd8f9ecf2cd7d0a312d4effd5d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

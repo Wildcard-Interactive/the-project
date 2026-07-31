@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://niosbgmedt5s"
+path="res://.godot/imported/Footstep Dirt 3.ogg-1565a74206ab89b4087e91da1966b3a1.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/footsteps/dirt/Footstep Dirt 3.ogg"
+dest_files=["res://.godot/imported/Footstep Dirt 3.ogg-1565a74206ab89b4087e91da1966b3a1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

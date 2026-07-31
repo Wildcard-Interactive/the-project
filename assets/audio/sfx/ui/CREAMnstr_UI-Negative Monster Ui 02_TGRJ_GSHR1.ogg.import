@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dej13q7qa2hj6"
+path="res://.godot/imported/CREAMnstr_UI-Negative Monster Ui 02_TGRJ_GSHR1.ogg-e3f8e29f858c1cf8ed764bcbe3bbb91d.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/CREAMnstr_UI-Negative Monster Ui 02_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/CREAMnstr_UI-Negative Monster Ui 02_TGRJ_GSHR1.ogg-e3f8e29f858c1cf8ed764bcbe3bbb91d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

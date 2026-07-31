@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cg1kk3bwmc7vy"
+path="res://.godot/imported/METLImpt_UI-Negative Knife Ui 04_TGRJ_GSHR1.ogg-02a62defa9ebeafe6dae03bfbd904d32.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/METLImpt_UI-Negative Knife Ui 04_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/METLImpt_UI-Negative Knife Ui 04_TGRJ_GSHR1.ogg-02a62defa9ebeafe6dae03bfbd904d32.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

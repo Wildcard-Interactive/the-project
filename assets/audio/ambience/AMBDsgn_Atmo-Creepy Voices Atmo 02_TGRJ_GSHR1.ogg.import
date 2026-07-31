@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bfuy0u4jlpwpw"
+path="res://.godot/imported/AMBDsgn_Atmo-Creepy Voices Atmo 02_TGRJ_GSHR1.ogg-c3f0f15834a5c4466a94d2572be0e94e.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/ambience/AMBDsgn_Atmo-Creepy Voices Atmo 02_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/AMBDsgn_Atmo-Creepy Voices Atmo 02_TGRJ_GSHR1.ogg-c3f0f15834a5c4466a94d2572be0e94e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

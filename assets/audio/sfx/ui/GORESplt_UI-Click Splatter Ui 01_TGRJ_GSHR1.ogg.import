@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://babrq0a07tx84"
+path="res://.godot/imported/GORESplt_UI-Click Splatter Ui 01_TGRJ_GSHR1.ogg-8b789c43fd8ffad3edce92e7435700e9.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/GORESplt_UI-Click Splatter Ui 01_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/GORESplt_UI-Click Splatter Ui 01_TGRJ_GSHR1.ogg-8b789c43fd8ffad3edce92e7435700e9.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

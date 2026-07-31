@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ctbpe8u7dhcqc"
+path="res://.godot/imported/UIAlert_UI-Negative Scifi Ui 03_TGRJ_GSHR1.ogg-f1b46d134e584abe9723e8d04bf3cbc2.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/UIAlert_UI-Negative Scifi Ui 03_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/UIAlert_UI-Negative Scifi Ui 03_TGRJ_GSHR1.ogg-f1b46d134e584abe9723e8d04bf3cbc2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

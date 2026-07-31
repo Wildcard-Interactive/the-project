@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bjc8ngo24vdwe"
+path="res://.godot/imported/Foodstep Metal 5.ogg-9211cd4dea277c1d40939689e6a0b3b4.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/footsteps/metal/Foodstep Metal 5.ogg"
+dest_files=["res://.godot/imported/Foodstep Metal 5.ogg-9211cd4dea277c1d40939689e6a0b3b4.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

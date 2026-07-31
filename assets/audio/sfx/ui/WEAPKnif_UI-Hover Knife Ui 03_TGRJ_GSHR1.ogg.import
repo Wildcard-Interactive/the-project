@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://3axxjsdaj8u3"
+path="res://.godot/imported/WEAPKnif_UI-Hover Knife Ui 03_TGRJ_GSHR1.ogg-ed9363a6a2823972219718d72a34a228.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/WEAPKnif_UI-Hover Knife Ui 03_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/WEAPKnif_UI-Hover Knife Ui 03_TGRJ_GSHR1.ogg-ed9363a6a2823972219718d72a34a228.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

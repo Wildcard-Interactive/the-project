@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://i8702hiqabvr"
+path="res://.godot/imported/AMBDsgn_Atmo-Wind Atmo Ghostly 03_TGRJ_GSHR1.ogg-72e8ca4b0c17ae51bf8eb6882278d226.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/ambience/AMBDsgn_Atmo-Wind Atmo Ghostly 03_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/AMBDsgn_Atmo-Wind Atmo Ghostly 03_TGRJ_GSHR1.ogg-72e8ca4b0c17ae51bf8eb6882278d226.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

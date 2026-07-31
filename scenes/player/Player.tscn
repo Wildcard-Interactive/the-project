@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3]
 
-[ext_resource type="Texture2D" path="res://assets/sprites/player/idle_down.png" id="1_sprite"]
+[ext_resource type="Texture2D" path="res://assets/characters/player/idle_down.png" id="1_sprite"]
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_script"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ceu7s50ixh2"
+path="res://.godot/imported/WEAPKnif_UI-Click Knife Ui 01_TGRJ_GSHR1.ogg-8a188da1f4eb2872773cb7ae492aec3c.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/WEAPKnif_UI-Click Knife Ui 01_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/WEAPKnif_UI-Click Knife Ui 01_TGRJ_GSHR1.ogg-8a188da1f4eb2872773cb7ae492aec3c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

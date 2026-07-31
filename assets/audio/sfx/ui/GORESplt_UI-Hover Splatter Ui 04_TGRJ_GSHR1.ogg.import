@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c1q5hi10sq7ul"
+path="res://.godot/imported/GORESplt_UI-Hover Splatter Ui 04_TGRJ_GSHR1.ogg-58dc1a075bac717054b668d05e06e8f8.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/GORESplt_UI-Hover Splatter Ui 04_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/GORESplt_UI-Hover Splatter Ui 04_TGRJ_GSHR1.ogg-58dc1a075bac717054b668d05e06e8f8.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

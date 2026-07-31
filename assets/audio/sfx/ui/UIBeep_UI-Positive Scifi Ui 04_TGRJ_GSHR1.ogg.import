@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://5qbvkvm4vfgi"
+path="res://.godot/imported/UIBeep_UI-Positive Scifi Ui 04_TGRJ_GSHR1.ogg-8460ae899d7bf54d1fafab47fe98c0a8.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/UIBeep_UI-Positive Scifi Ui 04_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/UIBeep_UI-Positive Scifi Ui 04_TGRJ_GSHR1.ogg-8460ae899d7bf54d1fafab47fe98c0a8.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

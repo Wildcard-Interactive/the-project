@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bsu8gltwckvo2"
+path="res://.godot/imported/DSGNStngr_Jumpscares-Abstract Glassy Hit 03_TGRJ_GSHR1.ogg-85047e99f2d8aef3ed4e6338a501aef1.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/stingers/DSGNStngr_Jumpscares-Abstract Glassy Hit 03_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/DSGNStngr_Jumpscares-Abstract Glassy Hit 03_TGRJ_GSHR1.ogg-85047e99f2d8aef3ed4e6338a501aef1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

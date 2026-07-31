@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cwrj78b8y8kco"
+path="res://.godot/imported/FIRECrkl_Atmo-Fire Quiet 01_TGRJ_GSHR1.ogg-5519ad6bd02f524ffa1bbaf88d01f789.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/ambience/FIRECrkl_Atmo-Fire Quiet 01_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/FIRECrkl_Atmo-Fire Quiet 01_TGRJ_GSHR1.ogg-5519ad6bd02f524ffa1bbaf88d01f789.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

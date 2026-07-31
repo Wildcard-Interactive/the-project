@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dxmx4074x6t4a"
+path="res://.godot/imported/WEAPKnif_UI-Positive Knife Ui 04_TGRJ_GSHR1.ogg-343f4ba09502913f1fd4ccac26fc9736.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/WEAPKnif_UI-Positive Knife Ui 04_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/WEAPKnif_UI-Positive Knife Ui 04_TGRJ_GSHR1.ogg-343f4ba09502913f1fd4ccac26fc9736.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

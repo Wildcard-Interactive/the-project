@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://7qje6cy8jocr"
+path="res://.godot/imported/DSGNStngr_Jumpscares-Abstract Deep Hit 01_TGRJ_GSHR1.ogg-934e3f1e23181b3186d1cba1eb3bf4d4.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/stingers/DSGNStngr_Jumpscares-Abstract Deep Hit 01_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/DSGNStngr_Jumpscares-Abstract Deep Hit 01_TGRJ_GSHR1.ogg-934e3f1e23181b3186d1cba1eb3bf4d4.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

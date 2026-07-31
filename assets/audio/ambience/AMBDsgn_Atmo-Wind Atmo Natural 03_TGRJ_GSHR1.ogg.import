@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bos8vv2jo1142"
+path="res://.godot/imported/AMBDsgn_Atmo-Wind Atmo Natural 03_TGRJ_GSHR1.ogg-041c2a3f44a9dfba28b8c0a2069461e4.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/ambience/AMBDsgn_Atmo-Wind Atmo Natural 03_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/AMBDsgn_Atmo-Wind Atmo Natural 03_TGRJ_GSHR1.ogg-041c2a3f44a9dfba28b8c0a2069461e4.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

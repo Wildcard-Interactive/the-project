@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://5am3n4k553fo"
+path="res://.godot/imported/GORESplt_UI-Negative Splatter Ui 04_TGRJ_GSHR1.ogg-e79f7e91fb8ad6a8aae32949b977310c.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/GORESplt_UI-Negative Splatter Ui 04_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/GORESplt_UI-Negative Splatter Ui 04_TGRJ_GSHR1.ogg-e79f7e91fb8ad6a8aae32949b977310c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

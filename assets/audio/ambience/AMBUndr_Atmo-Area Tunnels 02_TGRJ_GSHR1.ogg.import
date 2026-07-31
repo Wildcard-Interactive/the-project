@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dfdd4jccyds0b"
+path="res://.godot/imported/AMBUndr_Atmo-Area Tunnels 02_TGRJ_GSHR1.ogg-b5739d41de0845cc57b23186187e3cc5.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/ambience/AMBUndr_Atmo-Area Tunnels 02_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/AMBUndr_Atmo-Area Tunnels 02_TGRJ_GSHR1.ogg-b5739d41de0845cc57b23186187e3cc5.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

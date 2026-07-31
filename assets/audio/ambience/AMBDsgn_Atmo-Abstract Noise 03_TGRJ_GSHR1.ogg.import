@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://up72o6ar7qxy"
+path="res://.godot/imported/AMBDsgn_Atmo-Abstract Noise 03_TGRJ_GSHR1.ogg-01834d4295e76693b63380e997aef84c.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/ambience/AMBDsgn_Atmo-Abstract Noise 03_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/AMBDsgn_Atmo-Abstract Noise 03_TGRJ_GSHR1.ogg-01834d4295e76693b63380e997aef84c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

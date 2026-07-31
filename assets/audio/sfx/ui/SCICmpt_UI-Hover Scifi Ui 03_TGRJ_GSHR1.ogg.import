@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://boixbf7raqwti"
+path="res://.godot/imported/SCICmpt_UI-Hover Scifi Ui 03_TGRJ_GSHR1.ogg-21ce342dd3b8c698f56e55a275e1f5e0.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/ui/SCICmpt_UI-Hover Scifi Ui 03_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/SCICmpt_UI-Hover Scifi Ui 03_TGRJ_GSHR1.ogg-21ce342dd3b8c698f56e55a275e1f5e0.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

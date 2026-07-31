@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://qn2krgj135i5"
+path="res://.godot/imported/DSGNRise_Jumpscare-Build-Up Abstract 02_TGRJ_GSHR1.ogg-b5587e5b99010ca8539127548aa34089.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/stingers/DSGNRise_Jumpscare-Build-Up Abstract 02_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/DSGNRise_Jumpscare-Build-Up Abstract 02_TGRJ_GSHR1.ogg-b5587e5b99010ca8539127548aa34089.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

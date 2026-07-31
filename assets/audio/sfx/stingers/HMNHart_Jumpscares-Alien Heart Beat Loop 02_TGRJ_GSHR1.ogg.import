@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://txxc0vjsl3qx"
+path="res://.godot/imported/HMNHart_Jumpscares-Alien Heart Beat Loop 02_TGRJ_GSHR1.ogg-88efecae8e4ccdf2ff4173958a518936.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/audio/sfx/stingers/HMNHart_Jumpscares-Alien Heart Beat Loop 02_TGRJ_GSHR1.ogg"
+dest_files=["res://.godot/imported/HMNHart_Jumpscares-Alien Heart Beat Loop 02_TGRJ_GSHR1.ogg-88efecae8e4ccdf2ff4173958a518936.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

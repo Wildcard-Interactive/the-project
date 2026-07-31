@@ -18,10 +18,10 @@ signal interaction_prompt_changed(text: String)
 var _nearby_interactables: Array[Interactable] = []
 
 var _sprite_by_direction: Dictionary = {
-	"up": preload("res://assets/sprites/player/idle_up.png"),
-	"down": preload("res://assets/sprites/player/idle_down.png"),
-	"left": preload("res://assets/sprites/player/idle_left.png"),
-	"right": preload("res://assets/sprites/player/idle_right.png"),
+	"up": preload("res://assets/characters/player/idle_up.png"),
+	"down": preload("res://assets/characters/player/idle_down.png"),
+	"left": preload("res://assets/characters/player/idle_left.png"),
+	"right": preload("res://assets/characters/player/idle_right.png"),
 }
 var _facing: String = "down"
 
